@@ -11,7 +11,7 @@ namespace DontFearTheReaper
     {
         public static Options Options { get; } = OptionsPanelHandler.RegisterModOptions<Options>();
 
-        public static ManualLogSource? Log;
+        public static new ManualLogSource? Logger;
 
         internal const string GUID = "com.visolar6.dontfearthereaper";
 
@@ -26,18 +26,18 @@ namespace DontFearTheReaper
         /// </summary>
         public void Awake()
         {
-            Log = Logger;
+            Logger = base.Logger;
         }
 
         public void Start()
         {
-            Log?.LogInfo($"Patching hooks...");
+            Logger?.LogInfo($"Patching hooks...");
             _harmony.PatchAll();
 
-            Log?.LogInfo($"Patching localization...");
+            Logger?.LogInfo($"Patching localization...");
             LanguagesHandler.GlobalPatch();
 
-            Log?.LogInfo($"Initialized!");
+            Logger?.LogInfo($"Initialized!");
         }
     }
 }

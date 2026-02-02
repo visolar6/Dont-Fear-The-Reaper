@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LocalizationPackages>
     <LocalizationPackage Lang="English">
+        <Text key="Options.GlowingEyes">Glowing Eyes</Text>
+        <Text key="Options.GlowingEyes.Tooltip">Enable or disable the glowing eyes effect on the Reaper Leviathan.</Text>
+        <Text key="Options.SpeedMultiplier">Speed</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">Adjust the speed and acceleration of the Reaper Leviathan.</Text>
+        <Text key="Options.RoarIntensity">Roar Intensity</Text>
+        <Text key="Options.RoarIntensity.Tooltip">Adjust the frequency and volume of the Reaper Leviathan's roar.</Text>
+        <Text key="Options.AggressionMultiplier">Aggression</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">Adjust how aggressive the Reaper Leviathan is.</Text>
     </LocalizationPackage>
 </LocalizationPackages>

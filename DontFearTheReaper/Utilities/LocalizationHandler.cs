@@ -63,18 +63,18 @@ namespace DontFearTheReaper.Utilities
                         }
                         else
                         {
-                            Plugin.Log?.LogWarning($"Key {text.key} does not reference any key in game.");
+                            Plugin.Logger?.LogWarning($"Key {text.key} does not reference any key in game.");
                         }
                     }
                 }
                 else
                 {
-                    Plugin.Log?.LogWarning("No matching localization package or texts found.");
+                    Plugin.Logger?.LogWarning("No matching localization package or texts found.");
                 }
             }
             else
             {
-                Plugin.Log?.LogWarning("No localizations found in the XML file.");
+                Plugin.Logger?.LogWarning("No localizations found in the XML file.");
             }
         }
 
@@ -101,7 +101,7 @@ namespace DontFearTheReaper.Utilities
             }
             else
             {
-                Plugin.Log?.LogWarning("No localizations found in the XML file.");
+                Plugin.Logger?.LogWarning("No localizations found in the XML file.");
             }
         }
     }
