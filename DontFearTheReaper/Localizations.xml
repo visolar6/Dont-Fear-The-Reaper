@@ -10,4 +10,64 @@
         <Text key="Options.AggressionMultiplier">Aggression</Text>
         <Text key="Options.AggressionMultiplier.Tooltip">Adjust how aggressive the Reaper Leviathan is.</Text>
     </LocalizationPackage>
+    <LocalizationPackage Lang="Spanish">
+        <Text key="Options.GlowingEyes">Ojos Brillantes</Text>
+        <Text key="Options.GlowingEyes.Tooltip">Activa o desactiva el efecto de ojos brillantes en el Reaper Leviathan.</Text>
+        <Text key="Options.SpeedMultiplier">Velocidad</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">Ajusta la velocidad y aceleración del Reaper Leviathan.</Text>
+        <Text key="Options.RoarIntensity">Intensidad del Rugido</Text>
+        <Text key="Options.RoarIntensity.Tooltip">Ajusta la frecuencia y el volumen del rugido del Reaper Leviathan.</Text>
+        <Text key="Options.AggressionMultiplier">Agresividad</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">Ajusta cuán agresivo es el Reaper Leviathan.</Text>
+    </LocalizationPackage>
+    <LocalizationPackage Lang="French">
+        <Text key="Options.GlowingEyes">Yeux Lumineux</Text>
+        <Text key="Options.GlowingEyes.Tooltip">Activer ou désactiver l'effet des yeux lumineux sur le Reaper Leviathan.</Text>
+        <Text key="Options.SpeedMultiplier">Vitesse</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">Ajustez la vitesse et l'accélération du Reaper Leviathan.</Text>
+        <Text key="Options.RoarIntensity">Intensité du Rugissement</Text>
+        <Text key="Options.RoarIntensity.Tooltip">Ajustez la fréquence et le volume du rugissement du Reaper Leviathan.</Text>
+        <Text key="Options.AggressionMultiplier">Agressivité</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">Ajustez à quel point le Reaper Leviathan est agressif.</Text>
+    </LocalizationPackage>
+    <LocalizationPackage Lang="German">
+        <Text key="Options.GlowingEyes">Leuchtende Augen</Text>
+        <Text key="Options.GlowingEyes.Tooltip">Aktiviere oder deaktiviere den Leuchtaugeneffekt beim Reaper Leviathan.</Text>
+        <Text key="Options.SpeedMultiplier">Geschwindigkeit</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">Passe die Geschwindigkeit und Beschleunigung des Reaper Leviathan an.</Text>
+        <Text key="Options.RoarIntensity">Brüllintensität</Text>
+        <Text key="Options.RoarIntensity.Tooltip">Passe die Häufigkeit und Lautstärke des Brüllens des Reaper Leviathan an.</Text>
+        <Text key="Options.AggressionMultiplier">Aggressivität</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">Passe an, wie aggressiv der Reaper Leviathan ist.</Text>
+    </LocalizationPackage>
+    <LocalizationPackage Lang="Russian">
+        <Text key="Options.GlowingEyes">Светящиеся глаза</Text>
+        <Text key="Options.GlowingEyes.Tooltip">Включить или отключить эффект светящихся глаз у Жнеца-Левиафана.</Text>
+        <Text key="Options.SpeedMultiplier">Скорость</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">Настроить скорость и ускорение Жнеца-Левиафана.</Text>
+        <Text key="Options.RoarIntensity">Интенсивность Рёва</Text>
+        <Text key="Options.RoarIntensity.Tooltip">Настроить частоту и громкость рёва Жнеца-Левиафана.</Text>
+        <Text key="Options.AggressionMultiplier">Агрессия</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">Настроить уровень агрессии Жнеца-Левиафана.</Text>
+    </LocalizationPackage>
+    <LocalizationPackage Lang="Chinese">
+        <Text key="Options.GlowingEyes">发光的眼睛</Text>
+        <Text key="Options.GlowingEyes.Tooltip">启用或禁用幽灵利维坦的发光眼睛效果。</Text>
+        <Text key="Options.SpeedMultiplier">速度</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">调整幽灵利维坦的速度和加速度。</Text>
+        <Text key="Options.RoarIntensity">咆哮强度</Text>
+        <Text key="Options.RoarIntensity.Tooltip">调整幽灵利维坦咆哮的频率和音量。</Text>
+        <Text key="Options.AggressionMultiplier">攻击性</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">调整幽灵利维坦的攻击性。</Text>
+    </LocalizationPackage>
+    <LocalizationPackage Lang="Japanese">
+        <Text key="Options.GlowingEyes">光る目</Text>
+        <Text key="Options.GlowingEyes.Tooltip">リーパーリヴァイアサンの光る目の効果を有効または無効にします。</Text>
+        <Text key="Options.SpeedMultiplier">速度</Text>
+        <Text key="Options.SpeedMultiplier.Tooltip">リーパーリヴァイアサンの速度と加速度を調整します。</Text>
+        <Text key="Options.RoarIntensity">咆哮の強さ</Text>
+        <Text key="Options.RoarIntensity.Tooltip">リーパーリヴァイアサンの咆哮の頻度と音量を調整します。</Text>
+        <Text key="Options.AggressionMultiplier">攻撃性</Text>
+        <Text key="Options.AggressionMultiplier.Tooltip">リーパーリヴァイアサンの攻撃性を調整します。</Text>
+    </LocalizationPackage>
 </LocalizationPackages>
