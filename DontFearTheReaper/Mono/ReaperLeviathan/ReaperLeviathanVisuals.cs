@@ -17,6 +17,12 @@ namespace DontFearTheReaper.Mono.ReaperLeviathan
         {
             if (_reaperLeviathan == null) return;
 
+            // if (Plugin.Options.ShadowAura)
+            // {
+            //     Plugin.Logger?.LogInfo("[ReaperLeviathanMeshLogger] Adding shadow aura to Reaper Leviathan");
+            //     AddShadowAura();
+            // }
+
             if (Plugin.Options.GlowingEyes)
             {
                 // Add glowing red lights to both eyes
@@ -37,6 +43,69 @@ namespace DontFearTheReaper.Mono.ReaperLeviathan
                     }));
                 }
             }
+        }
+
+        private void AddShadowAura()
+        {
+            // Create a new GameObject for the particle system
+            var auraObj = new GameObject("ShadowAura");
+            auraObj.transform.SetParent(_reaperLeviathan!.transform, false);
+            auraObj.transform.localPosition = Vector3.zero;
+
+            var ps = auraObj.AddComponent<ParticleSystem>();
+            var main = ps.main;
+            main.startColor = new ParticleSystem.MinMaxGradient(new Color(0, 0, 0, 0.005f), new Color(0, 0, 0, 0.01f));
+            main.startSize = new ParticleSystem.MinMaxCurve(2f, 4f);
+            main.startLifetime = 0.5f;
+            main.simulationSpace = ParticleSystemSimulationSpace.World;
+            main.maxParticles = 30;
+            main.loop = true;
+            main.duration = 1f;
+            main.startSpeed = 0.01f;
+
+            var emission = ps.emission;
+            emission.rateOverTime = 20f;
+
+            var shape = ps.shape;
+            shape.shapeType = ParticleSystemShapeType.Sphere;
+            shape.radius = 0.2f;
+            shape.radiusThickness = 0.05f;
+
+            var colorOverLifetime = ps.colorOverLifetime;
+            colorOverLifetime.enabled = true;
+            Gradient grad = new();
+            grad.SetKeys(
+                [new GradientColorKey(new Color(0, 0, 0, 0.01f), 0.0f), new GradientColorKey(new Color(0, 0, 0, 0.005f), 1.0f)],
+                [new GradientAlphaKey(0.01f, 0.0f), new GradientAlphaKey(0.0f, 1.0f)]
+            );
+            colorOverLifetime.color = new ParticleSystem.MinMaxGradient(grad);
+
+            var renderer = auraObj.GetComponent<ParticleSystemRenderer>();
+            Shader shader = Shader.Find("Legacy Shaders/Particles/Multiply");
+            Material mat;
+            if (shader != null)
+            {
+                mat = new Material(shader);
+                // Try to load the custom soft-edged shadow texture
+                var shadowTex = ResourceHandler.LoadTexture2DFromFile("Assets/Texture2D/soft_shadow_particle.png");
+                if (shadowTex != null)
+                {
+                    mat.mainTexture = shadowTex;
+                    Plugin.Logger?.LogInfo("[ReaperLeviathanVisuals] Loaded custom soft shadow particle texture.");
+                }
+                else
+                {
+                    Plugin.Logger?.LogWarning("[ReaperLeviathanVisuals] Could not load custom soft shadow particle texture, using default.");
+                }
+            }
+            else
+            {
+                Plugin.Logger?.LogWarning("[ReaperLeviathanVisuals] Could not find 'Legacy Shaders/Particles/Multiply', using default particle material.");
+                mat = renderer.sharedMaterial; // fallback
+            }
+            renderer.material = mat;
+            renderer.renderMode = ParticleSystemRenderMode.Billboard;
+            renderer.sortingOrder = 1;
         }
 
         private void AddGlowToEyeTransform(Transform eye)

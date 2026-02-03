@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LocalizationPackages>
     <LocalizationPackage Lang="English">
+        <Text key="Options.ShadowAura">Shadow Aura</Text>
+        <Text key="Options.ShadowAura.Tooltip">Enable or disable the shadowy aura effect around the Reaper Leviathan.</Text>
         <Text key="Options.GlowingEyes">Glowing Eyes</Text>
         <Text key="Options.GlowingEyes.Tooltip">Enable or disable the glowing eyes effect on the Reaper Leviathan.</Text>
         <Text key="Options.SpeedMultiplier">Speed</Text>
@@ -11,6 +13,8 @@
         <Text key="Options.AggressionMultiplier.Tooltip">Adjust how aggressive the Reaper Leviathan is.</Text>
     </LocalizationPackage>
     <LocalizationPackage Lang="Spanish">
+        <Text key="Options.ShadowAura">Aura Sombría</Text>
+        <Text key="Options.ShadowAura.Tooltip">Activa o desactiva el efecto de aura sombría alrededor del Reaper Leviathan.</Text>
         <Text key="Options.GlowingEyes">Ojos Brillantes</Text>
         <Text key="Options.GlowingEyes.Tooltip">Activa o desactiva el efecto de ojos brillantes en el Reaper Leviathan.</Text>
         <Text key="Options.SpeedMultiplier">Velocidad</Text>
@@ -21,6 +25,8 @@
         <Text key="Options.AggressionMultiplier.Tooltip">Ajusta cuán agresivo es el Reaper Leviathan.</Text>
     </LocalizationPackage>
     <LocalizationPackage Lang="French">
+        <Text key="Options.ShadowAura">Aura d'Ombre</Text>
+        <Text key="Options.ShadowAura.Tooltip">Activez ou désactivez l'effet d'aura d'ombre autour du Reaper Leviathan.</Text>
         <Text key="Options.GlowingEyes">Yeux Lumineux</Text>
         <Text key="Options.GlowingEyes.Tooltip">Activer ou désactiver l'effet des yeux lumineux sur le Reaper Leviathan.</Text>
         <Text key="Options.SpeedMultiplier">Vitesse</Text>
@@ -31,6 +37,8 @@
         <Text key="Options.AggressionMultiplier.Tooltip">Ajustez à quel point le Reaper Leviathan est agressif.</Text>
     </LocalizationPackage>
     <LocalizationPackage Lang="German">
+        <Text key="Options.ShadowAura">Schattenaura</Text>
+        <Text key="Options.ShadowAura.Tooltip">Aktiviere oder deaktiviere den schattenhaften Aura-Effekt um den Reaper Leviathan.</Text>
         <Text key="Options.GlowingEyes">Leuchtende Augen</Text>
         <Text key="Options.GlowingEyes.Tooltip">Aktiviere oder deaktiviere den Leuchtaugeneffekt beim Reaper Leviathan.</Text>
         <Text key="Options.SpeedMultiplier">Geschwindigkeit</Text>
@@ -41,6 +49,8 @@
         <Text key="Options.AggressionMultiplier.Tooltip">Passe an, wie aggressiv der Reaper Leviathan ist.</Text>
     </LocalizationPackage>
     <LocalizationPackage Lang="Russian">
+        <Text key="Options.ShadowAura">Теневая аура</Text>
+        <Text key="Options.ShadowAura.Tooltip">Включить или отключить эффект теневой ауры вокруг Жнеца-Левиафана.</Text>
         <Text key="Options.GlowingEyes">Светящиеся глаза</Text>
         <Text key="Options.GlowingEyes.Tooltip">Включить или отключить эффект светящихся глаз у Жнеца-Левиафана.</Text>
         <Text key="Options.SpeedMultiplier">Скорость</Text>
@@ -51,6 +61,8 @@
         <Text key="Options.AggressionMultiplier.Tooltip">Настроить уровень агрессии Жнеца-Левиафана.</Text>
     </LocalizationPackage>
     <LocalizationPackage Lang="Chinese">
+        <Text key="Options.ShadowAura">暗影光环</Text>
+        <Text key="Options.ShadowAura.Tooltip">启用或禁用幽灵利维坦周围的暗影光环效果。</Text>
         <Text key="Options.GlowingEyes">发光的眼睛</Text>
         <Text key="Options.GlowingEyes.Tooltip">启用或禁用幽灵利维坦的发光眼睛效果。</Text>
         <Text key="Options.SpeedMultiplier">速度</Text>
@@ -61,6 +73,8 @@
         <Text key="Options.AggressionMultiplier.Tooltip">调整幽灵利维坦的攻击性。</Text>
     </LocalizationPackage>
     <LocalizationPackage Lang="Japanese">
+        <Text key="Options.ShadowAura">シャドウオーラ</Text>
+        <Text key="Options.ShadowAura.Tooltip">リーパーリヴァイアサンの周囲に影のオーラ効果を有効または無効にします。</Text>
         <Text key="Options.GlowingEyes">光る目</Text>
         <Text key="Options.GlowingEyes.Tooltip">リーパーリヴァイアサンの光る目の効果を有効または無効にします。</Text>
         <Text key="Options.SpeedMultiplier">速度</Text>
