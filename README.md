@@ -1,4 +1,4 @@
-# Dont Fear The Reaper
+# Don't Fear The Reaper
 
 A Subnautica mod that tweaks the behavior, aggression, and presence of the Reaper Leviathan to create a more balanced and customizable gameplay experience.
 

@@ -15,7 +15,7 @@ namespace DontFearTheReaper
 
         internal const string GUID = "com.visolar6.dontfearthereaper";
 
-        internal const string Name = "Dont Fear The Reaper";
+        internal const string Name = "Don't Fear The Reaper";
 
         internal const string Version = "1.0.0";
 
